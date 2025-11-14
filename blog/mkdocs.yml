@@ -1,0 +1,35 @@
+site_name: celestial.ink
+site_url: https://celestial.ink
+extra_css: 
+  - css/main.css
+theme:
+  name: material
+  palette:
+    scheme: slate
+    accent: green
+  logo: images/logo.png
+  favicon: images/logo.png
+plugins:
+  - search
+  - blog:
+      blog_dir: .
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+nav:
+  - index.md
+  - natural_intelligence.md
