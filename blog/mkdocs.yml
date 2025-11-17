@@ -9,6 +9,8 @@ theme:
     accent: green
   logo: images/logo.png
   favicon: images/logo.png
+  features:
+    - navigation.footer
 plugins:
   - search
   - blog:
@@ -33,3 +35,4 @@ markdown_extensions:
 nav:
   - index.md
   - natural_intelligence.md
+  - about.md
