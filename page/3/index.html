@@ -493,6 +493,36 @@
   
   
     <li class="md-nav__item">
+      <a href="../../category/granada/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Granada
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
       <a href="../../category/bookmarks/" class="md-nav__link">
         
   
@@ -733,6 +763,36 @@
   
   
     <li class="md-nav__item">
+      <a href="../../category/photo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    photo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
       <a href="../../category/postgres/" class="md-nav__link">
         
   
@@ -823,6 +883,92 @@
       <header class="md-typeset">
         <h1 id="home">Home</h1>
       </header>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-12-12 00:00:00+00:00">December 12, 2023</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../category/diary/" class="md-meta__link">diary</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              1 min read
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="diary-record"><a class="toclink" href="../../2023/12/12/diary-record/">diary record</a></h2>
+<p>Cloud workflows are another level of a mess, not quite a news, is it?
+A peculiar case of my little struggle with chaos - devops does not have capacity to assign me the access to some db. And I have to deliver little code, involving the other code (not mine), involving that db.
+Yay, workaround - I do have an access to deployment pipeline, which spins up the container with the access to that db. So my journey is like a hangman game - assume, change code, deploy (10 minutes), check. Trying restart the app within that container relaunches the container. So, this is the way.
+And I have some time to write this grumpy post.</p>
+    
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-12-08 00:00:00+00:00">December 8, 2023</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../category/knowledge-base/" class="md-meta__link">knowledge-base</a>, 
+              <a href="../../category/django/" class="md-meta__link">django</a>, 
+              <a href="../../category/nginx/" class="md-meta__link">nginx</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              1 min read
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="django-app-resource-blocked-due-to-mime-type-mismatch"><a class="toclink" href="../../2023/12/08/django-app-resource-blocked-due-to-mime-type-mismatch/">django app: Resource blocked due to MIME type mismatch</a></h2>
+<p>Running your Django app first time in production, you might bump into the issue of your browser blocking static resources (.css, .js) with a message "Resource blocked due to MIME type mismatch". I was googling a bit here and there, most results are providing a bit context demanding answers.</p>
+<div class="admonition info">
+<p class="admonition-title">"Hint"</p>
+<p>The X-Content-Type-Options response HTTP header is a marker used by the server to indicate that the MIME types advertised in the Content-Type headers should be followed and not be changed.</p>
+<p><strong>(The document provided by the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options?utm_source=mozilla&utm_medium=firefox-console-errors&utm_campaign=default">link</a> "explaining" the issue in the browser)</strong></p>
+</div>
+<p>Dude, what do I do? Some answers on Stack Overflow recommend to turn of security features in your browser. Well, swiping the issue under the carpet does not make it go.</p>
+
+    
+      <nav class="md-post__action">
+        <a href="../../2023/12/08/django-app-resource-blocked-due-to-mime-type-mismatch/">
+          Continue reading
+        </a>
+      </nav>
+    
+    
+  </div>
+</article>
       
         <article class="md-post md-post--excerpt">
   <header class="md-post__header">
