@@ -21,7 +21,9 @@ plugins:
         as_creation: date
       categories:
         - categories
-        - tags
+      feeds_filenames:
+        rss_created: rss.xml
+        rss_updated: rss_updated.xml
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -36,3 +38,4 @@ nav:
   - index.md
   - natural_intelligence.md
   - about.md
+  - <img src="/images/rss.png" width="32" alt="rss">: /rss.xml
