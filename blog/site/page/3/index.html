@@ -520,6 +520,36 @@
   
   
     <li class="md-nav__item">
+      <a href="../../category/antequera/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antequera
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
       <a href="../../category/granada/" class="md-nav__link">
         
   
@@ -910,6 +940,50 @@
       <header class="md-typeset">
         <h1 id="home">Home</h1>
       </header>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-12-25 00:00:00+00:00">December 25, 2023</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../category/knowledge-base/" class="md-meta__link">knowledge-base</a>, 
+              <a href="../../category/linux/" class="md-meta__link">linux</a>, 
+              <a href="../../category/postgres/" class="md-meta__link">postgres</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              1 min read
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="no-varrunpostgresqlspgsql-after-reboot-ubuntu"><a class="toclink" href="../../2023/12/25/no-varrunpostgresqlspgsql-after-reboot-ubuntu/">No /var/run/postgresql/.s.PGSQL after reboot (Ubuntu)</a></h2>
+<p>Rebooting the server, bumped into the following error, preventing my django server from functioning: <b>psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.xxxx" failed: No such file or directory</b></p>
+<p>Not to easy to search the solution, tons of search spam (and of course stupid advises "purge porstgresql including databases and all the files and reinstall".</p>
+<p>Thanks to Abdallah: <a href="https://www.abdallahyashir.com/how-to-fix-postgresql-error-connection-to-server-on-socket-failed/">https://www.abdallahyashir.com/how-to-fix-postgresql-error-connection-to-server-on-socket-failed/</a></p>
+<div class="admonition example">
+<p class="admonition-title">Shellscript</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="w">    </span>$<span class="w"> </span>sudo<span class="w"> </span>-i<span class="w"> </span>-u<span class="w"> </span>postgres
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span>$<span class="w"> </span>/usr/lib/postgresql/14/bin/pg_ctl<span class="w"> </span>restart<span class="w"> </span>-D<span class="w"> </span>/var/lib/postgresql/14/main
+</span></code></pre></div>
+</div>
+    
+    
+  </div>
+</article>
       
         <article class="md-post md-post--excerpt">
   <header class="md-post__header">
