@@ -2,7 +2,7 @@
 date: 2024-06-08
 categories:
     - movies
-    - diary
+    - diario
 ---
 
 # The fall guy

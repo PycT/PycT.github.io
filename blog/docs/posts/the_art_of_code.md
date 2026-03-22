@@ -1,7 +1,7 @@
 ---
 date: 2025-08-08
 category:
-    - diary
+    - diario
     - videos
     - coding
     - natural-intelligence

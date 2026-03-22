@@ -1,7 +1,7 @@
 ---
 date: 2025-02-07
 categories:
-    - diary
+    - diario
 links:
     Natural Intelligence: ../natural_intelligence
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2025-01-25
 categories:
-    - diary
+    - diario
 ---
 
 # Always be bold

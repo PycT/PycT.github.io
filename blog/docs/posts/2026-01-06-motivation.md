@@ -1,7 +1,7 @@
 ---
 date: 2026-01-06
 categories:
-    - diary
+    - diario
 ---
 
 # Sobre la motivación
